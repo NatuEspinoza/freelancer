@@ -1,3 +1,381 @@
-/*
- * Estilos de tu proyecto
- */
+/* Clases universales */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Estilo para que el contenido de la página quede sin márgenes */
+
+body {
+  margin: 0 auto;
+}
+
+/* Textos en mayúsculas */
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/* Logo Star-line para Títulos*/
+
+.logo-star {
+  margin-right: 500px;
+}
+
+.line {
+  max-width: 120px;
+  margin-left: 510px;
+  padding-right: 120px;
+  border-top: solid 5px;
+  display: inline-block;
+}
+
+.line2 {
+  max-width: 120px;
+  margin-left: 5px;
+  padding-right: 120px;
+  border-top: solid 5px;
+  display: inline-block;
+}
+
+.fa-star {
+  padding-top: 0;
+}
+
+/* Navegador de cabecera fijo*/
+
+.nav {
+  width: 100%;
+  height: 108px;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  background: #2c3e50;
+  position: fixed;
+}
+
+.nav h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #FFF;
+  font-size: 33px;
+  margin-top: 0;
+  margin-left: 121px;
+  padding-top: 1em;
+  float: left;
+}
+
+.nav .links {
+  margin-right: 110px;
+}
+
+.nav a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #FFF;
+  text-decoration: none;
+  float: right;
+  margin-top: 45px;
+  margin-right: 20px;
+}
+
+.nav a:hover {
+  color: #18bc9c;
+}
+
+/*Contenido Principal de la web*/
+
+.main {
+  width: 100%;
+  height: 750px;
+  padding-top: 180px;
+  background: #18bc9c;
+  color: #FFF;
+}
+
+.content {
+  color: #FFF;
+  text-align: center;
+}
+
+.content h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 75px;
+  line-height: 0;
+}
+
+.content h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 29px;
+  font-weight: normal;
+}
+
+/*Sección de los trabajos realizados (Portafolio)*/
+
+.portfolio {
+  height: 760px;
+  text-align: center;
+  background: #FFF;
+}
+
+.portfolio h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #212529;
+  font-size: 45px;
+  margin-top: 114px;
+  line-height: 0;
+}
+
+.portfolio .fa-star {
+  color: #2C3E50;
+}
+
+.portfolio .line, .portfolio .line2 {
+  color: #2C3E50
+}
+
+.portfolio .img img {
+  width: 350px;
+  height: auto;
+  margin-left: 32px;
+  margin-bottom: 32px;
+  float: left;
+  cursor: pointer;
+}
+
+.proyects {
+  margin-top: 20px;
+  margin-left: 85px;
+}
+
+/*About: Sección que describe la página*/
+
+.about {
+  text-align: center;
+  width: 100%;
+  height: 579px;
+  background: #18bc9c;
+  color: #FFF;
+  clear: both;
+}
+
+.about h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #FFF;
+  font-size: 45px;
+  padding-top: 145px;
+  line-height: 0;
+}
+
+.texts {
+  margin-left: 280px;
+  font-family: 'Lato', sans-serif;
+}
+
+.text {
+  width: 355px;
+  height: 183px;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 29px;
+  margin-top: 20px;
+  line-height: 1.5;
+  display: inline-block;
+  float: left;
+}
+
+/*botón para descargar*/
+
+.download {
+  width: 211px;
+  height: 47px;
+  margin-left: 570px;
+  clear: both;
+}
+
+.fa-download {
+  margin: 0;
+  padding: 5px 5px 10px 10px;
+  float: left;
+  display: inline-block;
+}
+
+.download a {
+  border: 2px solid white;
+  border-radius: .25rem;
+  margin: 0;
+  padding: 8px 10px 0 0;
+  font-family: 'Lato', sans-serif;
+  color: inherit;
+  font-weight: normal;
+  font-size: 20px;
+  text-decoration: none;
+  float: right;
+  display: inline-block;
+}
+
+.download a:hover {
+  background: #FFF;
+  color: #18bc9c;
+}
+
+/* Sección de contacto */
+
+.contact-me {
+  text-align: center;
+  width: 100%;
+  height: 900px;
+  background: #FFF;
+  clear: both;
+}
+
+.contact-me h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #212529;
+  font-size: 45px;
+  padding-top: 100px;
+  line-height: 0;
+}
+
+.contact-me .fa-star {
+  color: #2C3E50;
+}
+
+.contact-me .line, .contact-me .line2 {
+  color: #2C3E50;
+}
+
+/* Formulario de contacto */
+
+.formulario {
+  text-align: left;
+  margin-left: 320px;
+  margin-top: 20px;
+}
+
+.formulario input, textarea {
+  color: #868E99;
+  font-size: 1.5rem;
+  font-family: 'Lato', sans-serif;
+  margin-top: 20px;
+  padding: 20px;
+  padding-left: 10px;
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+}
+
+.formulario .boton {
+  padding: 0;
+  border-radius: 15%;
+  width: 80px;
+  height: 50px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  background: #18bc9c;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  border-color: #18bc9c;
+  border-bottom-style: inset;
+  border-right-style: inset;
+}
+
+.formulario .boton:hover {
+  background: #107965;
+  border-color: #107965;
+}
+
+/* Pie de página */
+
+.footer {
+  width: 100%;
+  height: 313px;
+  padding-left: 90px;
+  background: #2C3E50;
+  color: #FFF;
+  text-align: center;
+  line-height: 1.3;
+}
+
+.footer h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.75rem;
+}
+
+.footer p {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+
+.items {
+  width: 340px;
+  height: 170px;
+  margin-top: 10px;
+  margin-left: 30px;
+  float: left;
+}
+
+.items a {
+  text-decoration: none;
+  color: #18bc9c;
+}
+
+.items a:hover {
+  text-decoration: underline;
+}
+
+.items ul {
+  list-style: none;
+  padding: 0;
+  margin-left: 17px;
+  overflow: auto;
+  /* devuelve a ul su contexto de bloque unas vez aplicado float a li*/
+}
+
+.items ul li {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 100%;
+  border: 2px solid #FFF;
+  float: left;
+}
+
+.items ul li a {
+  border-radius: 100%;
+  text-decoration: none;
+  width: 47px;
+  height: 47px;
+  padding-top: 15px;
+  color: #fff;
+  display: block;
+}
+
+.items ul li a:hover {
+  border-radius: 100%;
+  width: 47px;
+  height: 47px;
+  background: #FFF;
+  color: #18bc9c;
+}
+
+.copyright {
+  padding-top: 50px;
+  padding-right: 120px;
+  font-size: 22px;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  clear: both;
+}
